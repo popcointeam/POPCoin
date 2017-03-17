@@ -1,46 +1,33 @@
-StartCOIN [START] integration/staging tree
+POPCoin
 ==========================================
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
 Copyright (c) 	   2014 StartJOIN
+Copyright (c) 	   2017 POPCoin Team
 
-What is StartCOIN?
+What is POPCoin?
 ----------------
 
-StartCOIN is the cryptocurrency for StartJOIN.com
+An open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances
 
 License
 -------
 
-StartCOIN is released under the terms of the MIT license. See `COPYING` for more
+POPCoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
-Development process
--------------------
+### Building POPCoin
 
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
+See doc/readme-qt.rst for instructions on building POPCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of POPCoin.
 
-If it is a simple/trivial/non-controversial change, then one of the StartCOIN
-development team members simply pulls it.
+See doc/build-*.txt for instructions on building popcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of POPCoin.
 
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of StartCOIN.
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
 
 ### Automated Testing
 
@@ -53,7 +40,6 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake STARTCOIN_QT_TEST=1 -o Makefile.test startcoin-qt.pro
+    qmake POPCOIN_QT_TEST=1 -o Makefile.test popcoin-qt.pro
     make -f Makefile.test
-    ./startcoin-qt_test
-
+    ./popcoin-qt_test

@@ -1,5 +1,5 @@
-#ifndef STARTCOINUNITS_H
-#define STARTCOINUNITS_H
+#ifndef POPCOINUNITS_H
+#define POPCOINUNITS_H
 
 #include <QString>
 #include <QAbstractListModel>
@@ -66,4 +66,4 @@ private:
 };
 typedef BitcoinUnits::Unit BitcoinUnit;
 
-#endif // STARTCOINUNITS_H
+#endif // POPCOINUNITS_H

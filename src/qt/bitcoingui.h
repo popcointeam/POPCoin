@@ -1,5 +1,5 @@
-#ifndef STARTCOINGUI_H
-#define STARTCOINGUI_H
+#ifndef POPCOINGUI_H
+#define POPCOINGUI_H
 
 #include <QMainWindow>
 #include <QSystemTrayIcon>
@@ -197,4 +197,4 @@ private slots:
     void detectShutdown();
 };
 
-#endif // STARTCOINGUI_H
+#endif // POPCOINGUI_H

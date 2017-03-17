@@ -1,5 +1,5 @@
-#ifndef STARTCOINAMOUNTFIELD_H
-#define STARTCOINAMOUNTFIELD_H
+#ifndef POPCOINAMOUNTFIELD_H
+#define POPCOINAMOUNTFIELD_H
 
 #include <QWidget>
 
@@ -58,4 +58,4 @@ private slots:
 
 };
 
-#endif // STARTCOINAMOUNTFIELD_H
+#endif // POPCOINAMOUNTFIELD_H

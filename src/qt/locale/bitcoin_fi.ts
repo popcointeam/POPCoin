@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About StartCOIN</source>
-        <translation>Tietoa StartCOINista</translation>
+        <source>About POPCoin</source>
+        <translation>Tietoa POPCoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;StartCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;StartCOIN&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;POPCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;POPCoin&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+0"/>
-        <source>StartJOIN</source>
+        <source>POPCoin</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -68,8 +68,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your StartCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat StartCOIN-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
+        <source>These are your POPCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat POPCoin-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,8 +83,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a StartCOIN address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat StartCOIN-osoitteen</translation>
+        <source>Sign a message to prove you own a POPCoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat POPCoin-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,8 +108,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified StartCOIN address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä StartCOIN-osoitteella</translation>
+        <source>Verify a message to ensure it was signed with a specified POPCoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä POPCoin-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your StartCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your POPCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -249,8 +249,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STARTCOIN&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI STARTCOINISI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POPCOIN&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI POPCOINISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -276,8 +276,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-56"/>
-        <source>StartCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your startcoins from being stolen by malware infecting your computer.</source>
-        <translation>StartCOIN sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+        <source>POPCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your popcoins from being stolen by malware infecting your computer.</source>
+        <translation>POPCoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -361,7 +361,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Näytä StartCOINien vastaanottamiseen käytetyt osoitteet</translation>
+        <translation>Näytä POPCoinien vastaanottamiseen käytetyt osoitteet</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -375,8 +375,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about StartCOIN</source>
-        <translation>Näytä tietoa StartCOIN-projektista</translation>
+        <source>Show information about POPCoin</source>
+        <translation>Näytä tietoa POPCoin-projektista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a StartCOIN address</source>
-        <translation>Lähetä kolikoita StartCOIN-osoitteeseen</translation>
+        <source>Send coins to a POPCoin address</source>
+        <translation>Lähetä kolikoita POPCoin-osoitteeseen</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for StartCOIN</source>
-        <translation>Muuta StartCOINin konfiguraatioasetuksia</translation>
+        <source>Modify configuration options for POPCoin</source>
+        <translation>Muuta POPCoinin konfiguraatioasetuksia</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>StartCOIN</source>
-        <translation>StartCOIN</translation>
+        <source>POPCoin</source>
+        <translation>POPCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About StartCOIN</source>
-        <translation>&amp;Tietoa StartCOINista</translation>
+        <source>&amp;About POPCoin</source>
+        <translation>&amp;Tietoa POPCoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -492,7 +492,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota StartCOIN-ikkuna</translation>
+        <translation>Näytä tai piilota POPCoin-ikkuna</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -501,13 +501,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your StartCOIN addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla StartCOIN -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your POPCoin addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla POPCoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified StartCOIN addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä StartCOIN -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified POPCoin addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä POPCoin -osoitteella</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+47"/>
-        <source>StartCOIN client</source>
-        <translation>StartCOIN-asiakas</translation>
+        <source>POPCoin client</source>
+        <translation>POPCoin-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to StartCOIN network</source>
-        <translation><numerusform>%n aktiivinen yhteys StartCOIN-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä StartCOIN-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to POPCoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys POPCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä POPCoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Osoite: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid StartCOIN address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta StartCOIN-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid POPCoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta POPCoin-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. StartCOIN can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. StartCOIN ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. POPCoin can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. POPCoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid StartCOIN address.</source>
-        <translation>Antamasi osoite &quot;%1&quot; ei ole validi StartCOIN-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid POPCoin address.</source>
+        <translation>Antamasi osoite &quot;%1&quot; ei ole validi POPCoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>StartCOIN-Qt</source>
-        <translation>StartCOIN-Qt</translation>
+        <source>POPCoin-Qt</source>
+        <translation>POPCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start StartCOIN after logging in to the system.</source>
-        <translation>Käynnistä StartCOIN kirjautumisen yhteydessä.</translation>
+        <source>Automatically start POPCoin after logging in to the system.</source>
+        <translation>Käynnistä POPCoin kirjautumisen yhteydessä.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start StartCOIN on system login</source>
-        <translation>&amp;Käynnistä StartCOIN kirjautumisen yhteydessä</translation>
+        <source>&amp;Start POPCoin on system login</source>
+        <translation>&amp;Käynnistä POPCoin kirjautumisen yhteydessä</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the StartCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa StartCOIN-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the POPCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa POPCoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the StartCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ota yhteys StartCOIN-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
+        <source>Connect to the POPCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ota yhteys POPCoin-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -910,7 +910,7 @@ Osoite: %4</translation>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa vain pienentää StartCOIN-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa vain pienentää POPCoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,23 +929,23 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting StartCOIN.</source>
-        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun StartCOIN käynnistetään.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCoin.</source>
+        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun POPCoin käynnistetään.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona startcoin-määrät näytetään</translation>
+        <translation>Yksikkö jona popcoin-määrät näytetään</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti startcoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti popcoin-määrien näyttämiseen.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show StartCOIN addresses in the transaction list or not.</source>
-        <translation>Näytetäänkö StartCOIN-osoitteet rahansiirrot listassa vai ei.</translation>
+        <source>Whether to show POPCoin addresses in the transaction list or not.</source>
+        <translation>Näytetäänkö POPCoin-osoitteet rahansiirrot listassa vai ei.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Osoite: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting StartCOIN.</source>
-        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun StartCOIN käynnistetään.</translation>
+        <source>This setting will take effect after restarting POPCoin.</source>
+        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun POPCoin käynnistetään.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Osoite: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the StartCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu StartCOIN-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the POPCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu POPCoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1051,12 +1051,12 @@ Osoite: %4</translation>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Tililläsi tällä hetkellä olevien StartCOINien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien POPCoinien määrä</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Niiden saapuvien rahansiirtojen määrä, joita StartCOIN-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
+        <translation>Niiden saapuvien rahansiirtojen määrä, joita POPCoin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1069,7 +1069,7 @@ Osoite: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start startcoin: click-to-pay handler</source>
+        <source>Cannot start popcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1219,8 +1219,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the StartCOIN-Qt help message to get a list with possible StartCOIN command-line options.</source>
-        <translation>Näytä StartCOIN-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
+        <source>Show the POPCoin-Qt help message to get a list with possible POPCoin command-line options.</source>
+        <translation>Näytä POPCoin-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>StartCOIN - Debug window</source>
-        <translation>StartCOIN - Debug ikkuna</translation>
+        <source>POPCoin - Debug window</source>
+        <translation>POPCoin - Debug ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>StartCOIN Core</source>
-        <translation>StartCOIN-ydin</translation>
+        <source>POPCoin Core</source>
+        <translation>POPCoin-ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the StartCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the POPCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa lokitiedosto nykyisestä data-kansiosta. Tämä voi viedä useamman sekunnin, jos lokitiedosto on iso.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the StartCOIN RPC console.</source>
-        <translation>Tervetuloa StartCOIN RPC konsoliin.</translation>
+        <source>Welcome to the POPCoin RPC console.</source>
+        <translation>Tervetuloa POPCoin RPC konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1290,7 +1290,7 @@ Osoite: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä StartCOINeja</translation>
+        <translation>Lähetä POPCoineja</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1340,7 +1340,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Hyväksy StartCOINien lähettäminen</translation>
+        <translation>Hyväksy POPCoinien lähettäminen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1360,7 +1360,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 StartCOINia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 POPCoinia.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1385,7 +1385,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin startcoineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja startcoinit on merkitty käytetyksi vain kopiossa.</translation>
+        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin popcoineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja popcoinit on merkitty käytetyksi vain kopiossa.</translation>
     </message>
 </context>
 <context>
@@ -1448,8 +1448,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Anna StartCOIN-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Anna POPCoin-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this StartCOIN address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän StartCOIN-osoitteen</translation>
+        <source>Sign the message to prove you own this POPCoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän POPCoin-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified StartCOIN address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä StartCOIN-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified POPCoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä POPCoin-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Anna StartCOIN-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Anna POPCoin-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter StartCOIN signature</source>
-        <translation>Syötä StartCOIN-allekirjoitus</translation>
+        <source>Enter POPCoin signature</source>
+        <translation>Syötä POPCoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,7 +1649,7 @@ Osoite: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>StartJOIN</source>
+        <source>POPCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1955,7 +1955,7 @@ Osoite: %4</translation>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Rahansiirron kohteen StartCOIN-osoite</translation>
+        <translation>Rahansiirron kohteen POPCoin-osoite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2137,7 +2137,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Lähetä StartCOINeja</translation>
+        <translation>Lähetä POPCoineja</translation>
     </message>
 </context>
 <context>
@@ -2187,8 +2187,8 @@ Osoite: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>StartCOIN version</source>
-        <translation>StartCOINin versio</translation>
+        <source>POPCoin version</source>
+        <translation>POPCoinin versio</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or startcoind</source>
-        <translation>Lähetä käsky palvelimelle tai startcoind:lle</translation>
+        <source>Send command to -server or popcoind</source>
+        <translation>Lähetä käsky palvelimelle tai popcoind:lle</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: startcoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: startcoin.conf)</translation>
+        <source>Specify configuration file (default: popcoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: popcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: startcoind.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: startcoin.pid)</translation>
+        <source>Specify pid file (default: popcoind.pid)</source>
+        <translation>Määritä pid-tiedosto (oletus: popcoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,13 +2300,13 @@ Osoite: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=startcoinrpc
+rpcuser=popcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;POPCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. StartCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. POPCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2367,8 +2367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong StartCOIN will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! StartCOIN ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong POPCoin will not work properly.</source>
+        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! POPCoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the StartCOIN Wiki for SSL setup instructions)</source>
-        <translation>SSL asetukset (katso StartCOIN Wikistä tarkemmat SSL ohjeet)</translation>
+        <source>SSL options: (see the POPCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL asetukset (katso POPCoin Wikistä tarkemmat SSL ohjeet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2808,13 +2808,13 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of StartCOIN</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version StartCOINista</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of POPCoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version POPCoinista</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart StartCOIN to complete</source>
-        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä StartCOIN uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart POPCoin to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä POPCoin uudelleen</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2873,8 +2873,8 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. StartCOIN is probably already running.</source>
-        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. StartCOIN on todennäköisesti jo ajamassa.</translation>
+        <source>Unable to bind to %s on this computer. POPCoin is probably already running.</source>
+        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. POPCoin on todennäköisesti jo ajamassa.</translation>
     </message>
     <message>
         <location line="+64"/>

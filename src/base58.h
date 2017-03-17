@@ -12,8 +12,8 @@
 // - E-mail usually won't line-break if there's no punctuation to break at.
 // - Double-clicking selects the whole number as one word if it's all alphanumeric.
 //
-#ifndef STARTCOIN_BASE58_H
-#define STARTCOIN_BASE58_H
+#ifndef POPCOIN_BASE58_H
+#define POPCOIN_BASE58_H
 
 #include <string>
 #include <vector>
@@ -457,4 +457,4 @@ public:
     }
 };
 
-#endif // STARTCOIN_BASE58_H
+#endif // POPCOIN_BASE58_H

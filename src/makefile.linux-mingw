@@ -101,7 +101,7 @@ OBJS= \
     obj/simd.o \
     obj/checkpointsync.o
 
-all: startcoind.exe
+all: popcoind.exe
 
 DEFS += -I"$(CURDIR)/leveldb/include"
 DEFS += -I"$(CURDIR)/leveldb/helpers"
@@ -122,7 +122,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 
-startcoind.exe: $(OBJS:obj/%=obj/%)
+popcoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -130,15 +130,15 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(xCXXFLAGS) -o $@ $<
 
-test_startcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_popcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework-mt-s $(LIBS)
 
 
 clean:
 	-rm -f obj/*.o
-	-rm -f startcoind.exe
+	-rm -f popcoind.exe
 	-rm -f obj-test/*.o
-	-rm -f test_startcoin.exe
+	-rm -f test_popcoin.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 

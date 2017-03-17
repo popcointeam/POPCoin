@@ -1,6 +1,6 @@
-startcoin-qt usr/bin
+popcoin-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/startcoin-qt.desktop usr/share/applications
-debian/startcoin-qt.protocol usr/share/kde4/services/
+debian/popcoin-qt.desktop usr/share/applications
+debian/popcoin-qt.protocol usr/share/kde4/services/

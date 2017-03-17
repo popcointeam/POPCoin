@@ -995,7 +995,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "startcoin";
+    const char* pszModule = "popcoin";
 #endif
     if (pex)
         return strprintf(
@@ -1031,13 +1031,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\StartCOIN-v2
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\StartCOIN-v2
-    // Mac: ~/Library/Application Support/StartCOIN-c2
-    // Unix: ~/.startcoin-v2
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\POPCoin-v2
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\POPCoin-v2
+    // Mac: ~/Library/Application Support/POPCoin-c2
+    // Unix: ~/.popcoin-v2
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "StartCOIN-v2";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "POPCoin-v2";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1049,10 +1049,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "StartCOIN-v2";
+    return pathRet / "POPCoin-v2";
 #else
     // Unix
-    return pathRet / ".startcoin-v2";
+    return pathRet / ".popcoin-v2";
 #endif
 #endif
 }
@@ -1093,7 +1093,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "startcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "popcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1103,7 +1103,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No startcoin.conf file is OK
+        return; // No popcoin.conf file is OK
 
     // clear path cache after loading config file
     fCachedPath[0] = fCachedPath[1] = false;
@@ -1113,7 +1113,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override startcoin.conf
+        // Don't overwrite existing settings so command line settings override popcoin.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -1127,7 +1127,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "startcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "popcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1336,7 +1336,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
         int64 nMedian = vTimeOffsets.median();
         std::vector<int64> vSorted = vTimeOffsets.sorted();
         // Only let other nodes change our time by so much
-        if (abs64(nMedian) < 35 * 60) // StartCOIN: changed maximum adjust to 35 mins to avoid letting peers change our time too much in case of an attack.
+        if (abs64(nMedian) < 35 * 60) // POPCoin: changed maximum adjust to 35 mins to avoid letting peers change our time too much in case of an attack.
         {
             nTimeOffset = nMedian;
         }
@@ -1356,7 +1356,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong StartCOIN will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong POPCoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);

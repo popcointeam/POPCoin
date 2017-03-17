@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Jonas Schnelli, 2013
-# make sure the StartCOIN-Qt.app contains the right plist (including the right version)
+# make sure the POPCoin-Qt.app contains the right plist (including the right version)
 # fix made because of serval bugs in Qt mac deployment (https://bugreports.qt-project.org/browse/QTBUG-21267)
 
 from string import Template
@@ -9,10 +9,10 @@ from datetime import date
 bitcoinDir = "./";
 
 inFile     = bitcoinDir+"/share/qt/Info.plist"
-outFile    = "StartCOIN-Qt.app/Contents/Info.plist"
+outFile    = "POPCoin-Qt.app/Contents/Info.plist"
 version    = "unknown";
 
-fileForGrabbingVersion = bitcoinDir+"startcoin-qt.pro"
+fileForGrabbingVersion = bitcoinDir+"popcoin-qt.pro"
 for line in open(fileForGrabbingVersion):
 	lineArr = line.replace(" ", "").split("=");
 	if lineArr[0].startswith("VERSION"):

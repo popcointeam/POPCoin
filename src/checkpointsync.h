@@ -1,9 +1,10 @@
 // Copyright (c) 2011-2013 PPCoin developers
-// Copyright (c) 2013 STARTCOIN developers
+// Copyright (c) 2014 StartJOIN
+// Copyright (c) 2017 POPCoin Team
 // Distributed under conditional MIT/X11 open source software license
 // see the accompanying file COPYING
-#ifndef STARTCOIN_CHECKPOINTSYNC_H
-#define  STARTCOIN_CHECKPOINTSYNC_H
+#ifndef POPCOIN_CHECKPOINTSYNC_H
+#define  POPCOIN_CHECKPOINTSYNC_H
 
 #include "net.h"
 #include "util.h"

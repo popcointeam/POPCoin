@@ -1,8 +1,8 @@
 // Copyright (c) 2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef STARTCOIN_BLOOM_H
-#define STARTCOIN_BLOOM_H
+#ifndef POPCOIN_BLOOM_H
+#define POPCOIN_BLOOM_H
 
 #include <vector>
 
@@ -88,4 +88,4 @@ public:
     void UpdateEmptyFull();
 };
 
-#endif /* STARTCOIN_BLOOM_H */
+#endif /* POPCOIN_BLOOM_H */

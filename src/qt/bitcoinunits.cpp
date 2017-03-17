@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("StartCOIN");
-    case mBTC: return QString("Milli-StartCOIN (1 / 1,000)");
-    case uBTC: return QString("Micro-StartCOIN (1 / 1,000,000)");
+    case BTC: return QString("POPCoin");
+    case mBTC: return QString("Milli-POPCoin (1 / 1,000)");
+    case uBTC: return QString("Micro-POPCoin (1 / 1,000,000)");
     default: return QString("???");
     }
 }

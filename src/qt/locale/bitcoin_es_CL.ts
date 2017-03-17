@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About StartCOIN</source>
-        <translation>Sobre StartCOIN</translation>
+        <source>About POPCoin</source>
+        <translation>Sobre POPCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;StartCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;StartCOIN&lt;/b&gt; - versión </translation>
+        <source>&lt;b&gt;POPCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;POPCoin&lt;/b&gt; - versión </translation>
     </message>
     <message>
         <location line="+57"/>
@@ -37,7 +37,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+0"/>
-        <source>StartJOIN</source>
+        <source>POPCoin</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -70,8 +70,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your StartCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son tus direcciones StartCOIN para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
+        <source>These are your POPCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son tus direcciones POPCoin para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -85,7 +85,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a StartCOIN address</source>
+        <source>Sign a message to prove you own a POPCoin address</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -110,7 +110,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified StartCOIN address</source>
+        <source>Verify a message to ensure it was signed with a specified POPCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -125,7 +125,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your StartCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your POPCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -251,8 +251,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STARTCOIN&lt;/b&gt;!</source>
-        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS STARTCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POPCOIN&lt;/b&gt;!</source>
+        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS POPCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-56"/>
-        <source>StartCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your startcoins from being stolen by malware infecting your computer.</source>
-        <translation>StartCOIN se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus startcoins de ser robados por malware que infecte su computador</translation>
+        <source>POPCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your popcoins from being stolen by malware infecting your computer.</source>
+        <translation>POPCoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus popcoins de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about StartCOIN</source>
-        <translation>Muestra información acerca de StartCOIN</translation>
+        <source>Show information about POPCoin</source>
+        <translation>Muestra información acerca de POPCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a StartCOIN address</source>
-        <translation>Enviar monedas a una dirección startcoin</translation>
+        <source>Send coins to a POPCoin address</source>
+        <translation>Enviar monedas a una dirección popcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for StartCOIN</source>
-        <translation>Modifica las opciones de configuración de startcoin</translation>
+        <source>Modify configuration options for POPCoin</source>
+        <translation>Modifica las opciones de configuración de popcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -458,8 +458,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>StartCOIN</source>
-        <translation>StartCOIN</translation>
+        <source>POPCoin</source>
+        <translation>POPCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -483,8 +483,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About StartCOIN</source>
-        <translation>&amp;Sobre StartCOIN</translation>
+        <source>&amp;About POPCoin</source>
+        <translation>&amp;Sobre POPCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,12 +503,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your StartCOIN addresses to prove you own them</source>
+        <source>Sign messages with your POPCoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified StartCOIN addresses</source>
+        <source>Verify messages to ensure they were signed with specified POPCoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -539,13 +539,13 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+47"/>
-        <source>StartCOIN client</source>
-        <translation>Cliente StartCOIN</translation>
+        <source>POPCoin client</source>
+        <translation>Cliente POPCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to StartCOIN network</source>
-        <translation><numerusform>%n conexión activa hacia la red StartCOIN</numerusform><numerusform>%n conexiones activas hacia la red StartCOIN</numerusform></translation>
+        <source>%n active connection(s) to POPCoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red POPCoin</numerusform><numerusform>%n conexiones activas hacia la red POPCoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -658,7 +658,7 @@ Dirección: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid StartCOIN address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid POPCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -673,7 +673,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. StartCOIN can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. POPCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -739,8 +739,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid StartCOIN address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección StartCOIN valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid POPCoin address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección POPCoin valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -758,7 +758,7 @@ Dirección: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>StartCOIN-Qt</source>
+        <source>POPCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -822,13 +822,13 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start StartCOIN after logging in to the system.</source>
-        <translation>Inicia StartCOIN automáticamente despues de encender el computador</translation>
+        <source>Automatically start POPCoin after logging in to the system.</source>
+        <translation>Inicia POPCoin automáticamente despues de encender el computador</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start StartCOIN on system login</source>
-        <translation>&amp;Inicia StartCOIN al iniciar el sistema</translation>
+        <source>&amp;Start POPCoin on system login</source>
+        <translation>&amp;Inicia POPCoin al iniciar el sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -847,8 +847,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the StartCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente StartCOIN en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the POPCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente POPCoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the StartCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecta a la red StartCOIN a través de un proxy SOCKS (ej. cuando te conectas por la red Tor)</translation>
+        <source>Connect to the POPCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecta a la red POPCoin a través de un proxy SOCKS (ej. cuando te conectas por la red Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,7 +932,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting StartCOIN.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -947,7 +947,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show StartCOIN addresses in the transaction list or not.</source>
+        <source>Whether to show POPCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -999,7 +999,7 @@ Dirección: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting StartCOIN.</source>
+        <source>This setting will take effect after restarting POPCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1018,7 +1018,7 @@ Dirección: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the StartCOIN network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the POPCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1072,7 +1072,7 @@ Dirección: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start startcoin: click-to-pay handler</source>
+        <source>Cannot start popcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1222,7 +1222,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the StartCOIN-Qt help message to get a list with possible StartCOIN command-line options.</source>
+        <source>Show the POPCoin-Qt help message to get a list with possible POPCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1242,12 +1242,12 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>StartCOIN - Debug window</source>
+        <source>POPCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>StartCOIN Core</source>
+        <source>POPCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1257,7 +1257,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the StartCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the POPCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1267,7 +1267,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the StartCOIN RPC console.</source>
+        <source>Welcome to the POPCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1451,8 +1451,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Introduce una dirección StartCOIN (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Introduce una dirección POPCoin (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1475,7 +1475,7 @@ Dirección: %4</translation>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Introduce una dirección StartCOIN (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Introduce una dirección POPCoin (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1516,7 +1516,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this StartCOIN address</source>
+        <source>Sign the message to prove you own this POPCoin address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -1548,11 +1548,11 @@ Dirección: %4</translation>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Introduce una dirección StartCOIN (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Introduce una dirección POPCoin (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified StartCOIN address</source>
+        <source>Verify the message to ensure it was signed with the specified POPCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1568,8 +1568,8 @@ Dirección: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Introduce una dirección StartCOIN (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Introduce una dirección POPCoin (ej. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,7 +1578,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter StartCOIN signature</source>
+        <source>Enter POPCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1652,7 +1652,7 @@ Dirección: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>StartJOIN</source>
+        <source>POPCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2190,8 +2190,8 @@ Dirección: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>StartCOIN version</source>
-        <translation>Versión StartCOIN</translation>
+        <source>POPCoin version</source>
+        <translation>Versión POPCoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2200,8 +2200,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or startcoind</source>
-        <translation>Envia comando a startcoin lanzado con -server u startcoind
+        <source>Send command to -server or popcoind</source>
+        <translation>Envia comando a popcoin lanzado con -server u popcoind
 </translation>
     </message>
     <message>
@@ -2224,14 +2224,14 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: startcoin.conf)</source>
-        <translation>Especifica archivo de configuración (predeterminado: startcoin.conf)
+        <source>Specify configuration file (default: popcoin.conf)</source>
+        <translation>Especifica archivo de configuración (predeterminado: popcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: startcoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: startcoin.pid)
+        <source>Specify pid file (default: popcoind.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: popcoin.pid)
 </translation>
     </message>
     <message>
@@ -2313,13 +2313,13 @@ Dirección: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=startcoinrpc
+rpcuser=popcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;POPCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2335,7 +2335,7 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. StartCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. POPCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2380,8 +2380,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong StartCOIN will not work properly.</source>
-        <translation>Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado StartCOIN no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong POPCoin will not work properly.</source>
+        <translation>Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado POPCoin no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2631,8 +2631,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the StartCOIN Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL: (ver la StartCOIN Wiki para instrucciones de configuración SSL)</translation>
+        <source>SSL options: (see the POPCoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL: (ver la POPCoin Wiki para instrucciones de configuración SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2833,13 +2833,13 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of StartCOIN</source>
-        <translation>Error cargando wallet.dat: Billetera necesita una vercion reciente de StartCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of POPCoin</source>
+        <translation>Error cargando wallet.dat: Billetera necesita una vercion reciente de POPCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart StartCOIN to complete</source>
-        <translation>La billetera necesita ser reescrita: reinicie StartCOIN para completar</translation>
+        <source>Wallet needed to be rewritten: restart POPCoin to complete</source>
+        <translation>La billetera necesita ser reescrita: reinicie POPCoin para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2898,8 +2898,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. StartCOIN is probably already running.</source>
-        <translation>No es posible escuchar en el %s en este ordenador. Probablemente StartCOIN ya se está ejecutando.</translation>
+        <source>Unable to bind to %s on this computer. POPCoin is probably already running.</source>
+        <translation>No es posible escuchar en el %s en este ordenador. Probablemente POPCoin ya se está ejecutando.</translation>
     </message>
     <message>
         <location line="+64"/>

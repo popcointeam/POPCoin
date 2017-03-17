@@ -2,8 +2,8 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef STARTCOIN_UINT256_H
-#define STARTCOIN_UINT256_H
+#ifndef POPCOIN_UINT256_H
+#define POPCOIN_UINT256_H
 
 #include <limits.h>
 #include <stdio.h>

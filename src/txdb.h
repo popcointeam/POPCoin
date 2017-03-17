@@ -2,8 +2,8 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef STARTCOIN_TXDB_LEVELDB_H
-#define STARTCOIN_TXDB_LEVELDB_H
+#ifndef POPCOIN_TXDB_LEVELDB_H
+#define POPCOIN_TXDB_LEVELDB_H
 
 #include "main.h"
 #include "leveldb.h"
@@ -56,4 +56,4 @@ public:
     bool WriteCheckpointPubKey(const std::string& strPubKey);
 };
 
-#endif // STARTCOIN_TXDB_LEVELDB_H
+#endif // POPCOIN_TXDB_LEVELDB_H

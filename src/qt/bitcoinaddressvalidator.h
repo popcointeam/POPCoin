@@ -1,5 +1,5 @@
-#ifndef STARTCOINADDRESSVALIDATOR_H
-#define STARTCOINADDRESSVALIDATOR_H
+#ifndef POPCOINADDRESSVALIDATOR_H
+#define POPCOINADDRESSVALIDATOR_H
 
 #include <QValidator>
 
@@ -18,4 +18,4 @@ public:
     static const int MaxAddressLength = 35;
 };
 
-#endif // STARTCOINADDRESSVALIDATOR_H
+#endif // POPCOINADDRESSVALIDATOR_H

@@ -2,8 +2,8 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef STARTCOIN_MAIN_H
-#define STARTCOIN_MAIN_H
+#ifndef POPCOIN_MAIN_H
+#define POPCOIN_MAIN_H
 
 #include "bignum.h"
 #include "sync.h"
@@ -596,7 +596,7 @@ public:
      */
     unsigned int GetP2SHSigOpCount(CCoinsViewCache& mapInputs) const;
 
-    /** Amount of StartCOIN spent by this transaction.
+    /** Amount of POPCoin spent by this transaction.
         @return sum of all outputs (note: does not include fees)
      */
     int64 GetValueOut() const
@@ -611,7 +611,7 @@ public:
         return nValueOut;
     }
 
-    /** Amount of StartCOIN coming in to this transaction
+    /** Amount of POPCoin coming in to this transaction
         Note that lightweight clients may not know anything besides the hash of previous transactions,
         so may not be able to calculate this.
 

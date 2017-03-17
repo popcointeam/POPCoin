@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter StartCOIN signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter POPCoin signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

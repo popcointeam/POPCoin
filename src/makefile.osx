@@ -27,7 +27,7 @@ LIBS= -dead_strip
 TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
 
 ifdef STATIC
-# Build STATIC if you are redistributing the startcoind binary
+# Build STATIC if you are redistributing the popcoind binary
 TESTLIBS += \
  $(DEPSDIR)/lib/libboost_unit_test_framework-mt.a
 LIBS += \
@@ -135,10 +135,10 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-all: startcoind
+all: popcoind
 
-test check: test_startcoin FORCE
-	./test_startcoin
+test check: test_popcoin FORCE
+	./test_popcoin
 
 #
 # LevelDB support
@@ -175,7 +175,7 @@ obj/%.o: %.cpp
 obj/%.o: %.c
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 
-startcoind: $(OBJS:obj/%=obj/%)
+popcoind: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -187,11 +187,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_startcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_popcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(TESTLIBS)
 
 clean:
-	-rm -f startcoind test_startcoin
+	-rm -f popcoind test_popcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

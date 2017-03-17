@@ -155,10 +155,10 @@ OBJS= \
     obj/simd.o \
     obj/checkpointsync.o
 
-all: startcoind
+all: popcoind
 
-test check: test_startcoin FORCE
-	./test_startcoin
+test check: test_popcoin FORCE
+	./test_popcoin
 
 #
 # LevelDB support
@@ -196,7 +196,7 @@ obj/%.o: %.cpp
 obj/%.o: %.c
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 
-startcoind: $(OBJS:obj/%=obj/%)
+popcoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -208,11 +208,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_startcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_popcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f startcoind test_startcoin
+	-rm -f popcoind test_popcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

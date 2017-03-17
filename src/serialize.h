@@ -2,8 +2,8 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef STARTCOIN_SERIALIZE_H
-#define STARTCOIN_SERIALIZE_H
+#ifndef POPCOIN_SERIALIZE_H
+#define POPCOIN_SERIALIZE_H
 
 #include <string>
 #include <vector>

@@ -1,5 +1,5 @@
 [Protocol]
-exec=startcoin-qt '%u'
+exec=popcoin-qt '%u'
 protocol=bitcoin
 input=none
 output=none

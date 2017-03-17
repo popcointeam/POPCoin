@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About StartCOIN</source>
-        <translation>Про StartCOIN</translation>
+        <source>About POPCoin</source>
+        <translation>Про POPCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;StartCOIN&lt;/b&gt; version</source>
-        <translation>Версія &lt;b&gt;StartCOIN&apos;a&lt;b&gt;</translation>
+        <source>&lt;b&gt;POPCoin&lt;/b&gt; version</source>
+        <translation>Версія &lt;b&gt;POPCoin&apos;a&lt;b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>StartJOIN</source>
+        <source>POPCoin</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your StartCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your POPCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Це ваші адреси для отримання платежів. Ви можете давати різні адреси різним людям, таким чином маючи можливість відслідкувати хто конкретно і скільки вам заплатив.</translation>
     </message>
     <message>
@@ -82,7 +82,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a StartCOIN address</source>
+        <source>Sign a message to prove you own a POPCoin address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified StartCOIN address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною StartCOIN-адресою</translation>
+        <source>Verify a message to ensure it was signed with a specified POPCoin address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною POPCoin-адресою</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your StartCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your POPCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -248,7 +248,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STARTCOIN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POPCOIN&lt;/b&gt;!</source>
         <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>StartCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your startcoins from being stolen by malware infecting your computer.</source>
+        <source>POPCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your popcoins from being stolen by malware infecting your computer.</source>
         <translation>Біткоін-клієнт буде закрито для завершення процесу шифрування. Пам&apos;ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від крадіжки, у випадку якщо ваш комп&apos;ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about StartCOIN</source>
-        <translation>Показати інформацію про StartCOIN</translation>
+        <source>Show information about POPCoin</source>
+        <translation>Показати інформацію про POPCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,12 +419,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a StartCOIN address</source>
+        <source>Send coins to a POPCoin address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for StartCOIN</source>
+        <source>Modify configuration options for POPCoin</source>
         <translation>Редагувати параметри</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>StartCOIN</source>
-        <translation>StartCOIN</translation>
+        <source>POPCoin</source>
+        <translation>POPCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About StartCOIN</source>
-        <translation>&amp;Про StartCOIN</translation>
+        <source>&amp;About POPCoin</source>
+        <translation>&amp;Про POPCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your StartCOIN addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою StartCOIN-адресою </translation>
+        <source>Sign messages with your POPCoin addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою POPCoin-адресою </translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified StartCOIN addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною StartCOIN-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified POPCoin addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною POPCoin-адресою</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>StartCOIN client</source>
-        <translation>StartCOIN-клієнт</translation>
+        <source>POPCoin client</source>
+        <translation>POPCoin-клієнт</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to StartCOIN network</source>
+        <source>%n active connection(s) to POPCoin network</source>
         <translation><numerusform>%n активне з&apos;єднання з мережею</numerusform><numerusform>%n активні з&apos;єднання з мережею</numerusform><numerusform>%n активних з&apos;єднань з мережею</numerusform></translation>
     </message>
     <message>
@@ -656,8 +656,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid StartCOIN address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Це може бути викликано неправильною StartCOIN-адресою, чи невірними параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid POPCoin address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Це може бути викликано неправильною POPCoin-адресою, чи невірними параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,7 +671,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. StartCOIN can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. POPCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -737,8 +737,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid StartCOIN address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі StartCOIN.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid POPCoin address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі POPCoin.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>StartCOIN-Qt</source>
-        <translation>StartCOIN-Qt</translation>
+        <source>POPCoin-Qt</source>
+        <translation>POPCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,12 +819,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start StartCOIN after logging in to the system.</source>
+        <source>Automatically start POPCoin after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start StartCOIN on system login</source>
+        <source>&amp;Start POPCoin on system login</source>
         <translation>&amp;Запускати гаманець при вході в систему</translation>
     </message>
     <message>
@@ -844,7 +844,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the StartCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the POPCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the StartCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Підключатись до мережі StartCOIN через SOCKS-проксі (наприклад при використанні Tor).</translation>
+        <source>Connect to the POPCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Підключатись до мережі POPCoin через SOCKS-проксі (наприклад при використанні Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting StartCOIN.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску StartCOIN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCoin.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску POPCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,7 +944,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show StartCOIN addresses in the transaction list or not.</source>
+        <source>Whether to show POPCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -996,8 +996,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting StartCOIN.</source>
-        <translation>Цей параметр набуде чинності після перезапуску StartCOIN.</translation>
+        <source>This setting will take effect after restarting POPCoin.</source>
+        <translation>Цей параметр набуде чинності після перезапуску POPCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the StartCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею StartCOIN після встановлення підключення, але цей процес ще не завершено.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the POPCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею POPCoin після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,7 +1069,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start startcoin: click-to-pay handler</source>
+        <source>Cannot start popcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1219,8 +1219,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the StartCOIN-Qt help message to get a list with possible StartCOIN command-line options.</source>
-        <translation>Показати довідку StartCOIN-Qt для отримання переліку можливих параметрів командного рядка.</translation>
+        <source>Show the POPCoin-Qt help message to get a list with possible POPCoin command-line options.</source>
+        <translation>Показати довідку POPCoin-Qt для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,12 +1239,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>StartCOIN - Debug window</source>
-        <translation>StartCOIN - Вікно зневадження</translation>
+        <source>POPCoin - Debug window</source>
+        <translation>POPCoin - Вікно зневадження</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>StartCOIN Core</source>
+        <source>POPCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the StartCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the POPCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the StartCOIN RPC console.</source>
-        <translation>Вітаємо у консолі StartCOIN RPC.</translation>
+        <source>Welcome to the POPCoin RPC console.</source>
+        <translation>Вітаємо у консолі POPCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Введіть адресу StartCOIN (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Введіть адресу POPCoin (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1472,7 +1472,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Введіть адресу StartCOIN (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Введіть адресу POPCoin (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,7 +1513,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this StartCOIN address</source>
+        <source>Sign the message to prove you own this POPCoin address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -1545,12 +1545,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Введіть адресу StartCOIN (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Введіть адресу POPCoin (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified StartCOIN address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною StartCOIN-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified POPCoin address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною POPCoin-адресою</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Введіть адресу StartCOIN (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Введіть адресу POPCoin (наприклад sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter StartCOIN signature</source>
-        <translation>Введіть сигнатуру StartCOIN</translation>
+        <source>Enter POPCoin signature</source>
+        <translation>Введіть сигнатуру POPCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,7 +1649,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>StartJOIN</source>
+        <source>POPCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>StartCOIN version</source>
+        <source>POPCoin version</source>
         <translation>Версія</translation>
     </message>
     <message>
@@ -2197,7 +2197,7 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or startcoind</source>
+        <source>Send command to -server or popcoind</source>
         <translation>Відправити команду серверу -server чи демону</translation>
     </message>
     <message>
@@ -2217,13 +2217,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: startcoin.conf)</source>
-        <translation>Вкажіть файл конфігурації (типово: startcoin.conf)</translation>
+        <source>Specify configuration file (default: popcoin.conf)</source>
+        <translation>Вкажіть файл конфігурації (типово: popcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: startcoind.pid)</source>
-        <translation>Вкажіть pid-файл (типово: startcoind.pid)</translation>
+        <source>Specify pid file (default: popcoind.pid)</source>
+        <translation>Вкажіть pid-файл (типово: popcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,13 +2300,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=startcoinrpc
+rpcuser=popcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;POPCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. StartCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. POPCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2367,8 +2367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong StartCOIN will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&apos;ютері. Якщо ваш годинник йде неправильно, StartCOIN може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong POPCoin will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&apos;ютері. Якщо ваш годинник йде неправильно, POPCoin може працювати некоректно.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the StartCOIN Wiki for SSL setup instructions)</source>
-        <translation>Параметри SSL: (див. StartCOIN Wiki для налаштування SSL)</translation>
+        <source>SSL options: (see the POPCoin Wiki for SSL setup instructions)</source>
+        <translation>Параметри SSL: (див. POPCoin Wiki для налаштування SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2807,12 +2807,12 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of StartCOIN</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of POPCoin</source>
         <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Біткоін-клієнта</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart StartCOIN to complete</source>
+        <source>Wallet needed to be rewritten: restart POPCoin to complete</source>
         <translation>Потрібно перезаписати гаманець: перезапустіть Біткоін-клієнт для завершення</translation>
     </message>
     <message>
@@ -2872,7 +2872,7 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. StartCOIN is probably already running.</source>
+        <source>Unable to bind to %s on this computer. POPCoin is probably already running.</source>
         <translation>Неможливо прив&apos;язати до порту %s на цьому комп&apos;ютері. Можливо гаманець вже запущено.</translation>
     </message>
     <message>

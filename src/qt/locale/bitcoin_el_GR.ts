@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About StartCOIN</source>
-        <translation>Σχετικά με το StartCOIN</translation>
+        <source>About POPCoin</source>
+        <translation>Σχετικά με το POPCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;StartCOIN&lt;/b&gt; version</source>
-        <translation>Έκδοση StartCOIN</translation>
+        <source>&lt;b&gt;POPCoin&lt;/b&gt; version</source>
+        <translation>Έκδοση POPCoin</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>StartJOIN</source>
-        <translation>Οι StartCOIN προγραμματιστές </translation>
+        <source>POPCoin</source>
+        <translation>Οι POPCoin προγραμματιστές </translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your StartCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Αυτές είναι οι StartCOIN διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your POPCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Αυτές είναι οι POPCoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a StartCOIN address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση StartCOIN</translation>
+        <source>Sign a message to prove you own a POPCoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση POPCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified StartCOIN address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση StartCOIN</translation>
+        <source>Verify a message to ensure it was signed with a specified POPCoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση POPCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your StartCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι StartCOIN διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your POPCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Αυτές είναι οι POPCoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STARTCOIN&lt;/b&gt;!</source>
-        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ STARTCOIN&lt;/b&gt;!
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POPCOIN&lt;/b&gt;!</source>
+        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ POPCOIN&lt;/b&gt;!
 Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
     </message>
     <message>
@@ -276,8 +276,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>StartCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your startcoins from being stolen by malware infecting your computer.</source>
-        <translation>Το StartCOIN θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα startcoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
+        <source>POPCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your popcoins from being stolen by malware infecting your computer.</source>
+        <translation>Το POPCoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα popcoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about StartCOIN</source>
-        <translation>Εμφάνισε πληροφορίες σχετικά με το StartCOIN</translation>
+        <source>Show information about POPCoin</source>
+        <translation>Εμφάνισε πληροφορίες σχετικά με το POPCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a StartCOIN address</source>
-        <translation>Στείλε νομισματα σε μια διεύθυνση startcoin</translation>
+        <source>Send coins to a POPCoin address</source>
+        <translation>Στείλε νομισματα σε μια διεύθυνση popcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for StartCOIN</source>
-        <translation>Επεργασία  ρυθμισεων επιλογών για το StartCOIN</translation>
+        <source>Modify configuration options for POPCoin</source>
+        <translation>Επεργασία  ρυθμισεων επιλογών για το POPCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>StartCOIN</source>
-        <translation>StartCOIN</translation>
+        <source>POPCoin</source>
+        <translation>POPCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About StartCOIN</source>
-        <translation>&amp;Σχετικα:StartCOIN</translation>
+        <source>&amp;About POPCoin</source>
+        <translation>&amp;Σχετικα:POPCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,13 +501,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your StartCOIN addresses to prove you own them</source>
+        <source>Sign messages with your POPCoin addresses to prove you own them</source>
         <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified StartCOIN addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση StartCOIN</translation>
+        <source>Verify messages to ensure they were signed with specified POPCoin addresses</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση POPCoin</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>StartCOIN client</source>
-        <translation>Πελάτης StartCOIN</translation>
+        <source>POPCoin client</source>
+        <translation>Πελάτης POPCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to StartCOIN network</source>
-        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο StartCOIN</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
+        <source>%n active connection(s) to POPCoin network</source>
+        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο POPCoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -659,8 +659,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid StartCOIN address or malformed URI parameters.</source>
-        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση StartCOIN ή ακατάλληλη παραμέτρο URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid POPCoin address or malformed URI parameters.</source>
+        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση POPCoin ή ακατάλληλη παραμέτρο URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -674,8 +674,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. StartCOIN can no longer continue safely and will quit.</source>
-        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το StartCOIN δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
+        <source>A fatal error occurred. POPCoin can no longer continue safely and will quit.</source>
+        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το POPCoin δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
     </message>
 </context>
 <context>
@@ -740,8 +740,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid StartCOIN address.</source>
-        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη StartCOIN διεύθυνση.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid POPCoin address.</source>
+        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη POPCoin διεύθυνση.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -759,8 +759,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>StartCOIN-Qt</source>
-        <translation>startcoin-qt</translation>
+        <source>POPCoin-Qt</source>
+        <translation>popcoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -822,12 +822,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start StartCOIN after logging in to the system.</source>
-        <translation>Αυτόματη εκκίνηση του StartCOIN μετά την εισαγωγή στο σύστημα</translation>
+        <source>Automatically start POPCoin after logging in to the system.</source>
+        <translation>Αυτόματη εκκίνηση του POPCoin μετά την εισαγωγή στο σύστημα</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start StartCOIN on system login</source>
+        <source>&amp;Start POPCoin on system login</source>
         <translation>&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
     </message>
     <message>
@@ -847,8 +847,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the StartCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών StartCOIN στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the POPCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Αυτόματο άνοιγμα των θυρών POPCoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the StartCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Σύνδεση στο StartCOIN δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
+        <source>Connect to the POPCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Σύνδεση στο POPCoin δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,8 +932,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting StartCOIN.</source>
-        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του StartCOIN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCoin.</source>
+        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του POPCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -947,8 +947,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show StartCOIN addresses in the transaction list or not.</source>
-        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις StartCOIN στη λίστα συναλλαγών.</translation>
+        <source>Whether to show POPCoin addresses in the transaction list or not.</source>
+        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις POPCoin στη λίστα συναλλαγών.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -999,8 +999,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting StartCOIN.</source>
-        <translation>Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του StartCOIN.</translation>
+        <source>This setting will take effect after restarting POPCoin.</source>
+        <translation>Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του POPCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1018,8 +1018,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the StartCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο StartCOIN μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the POPCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο POPCoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1072,8 +1072,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start startcoin: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του StartCOIN: click-to-pay handler</translation>
+        <source>Cannot start popcoin: click-to-pay handler</source>
+        <translation>Δεν είναι δυνατή η εκκίνηση του POPCoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1222,8 +1222,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the StartCOIN-Qt help message to get a list with possible StartCOIN command-line options.</source>
-        <translation>Εμφανιση του StartCOIN-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές StartCOIN γραμμής εντολών.</translation>
+        <source>Show the POPCoin-Qt help message to get a list with possible POPCoin command-line options.</source>
+        <translation>Εμφανιση του POPCoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές POPCoin γραμμής εντολών.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1242,13 +1242,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>StartCOIN - Debug window</source>
-        <translation>StartCOIN - Παράθυρο αποσφαλμάτωσης</translation>
+        <source>POPCoin - Debug window</source>
+        <translation>POPCoin - Παράθυρο αποσφαλμάτωσης</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>StartCOIN Core</source>
-        <translation>StartCOIN Core</translation>
+        <source>POPCoin Core</source>
+        <translation>POPCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1257,7 +1257,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the StartCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the POPCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
     </message>
     <message>
@@ -1267,8 +1267,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the StartCOIN RPC console.</source>
-        <translation>Καλώς ήρθατε στην StartCOIN RPC κονσόλα.</translation>
+        <source>Welcome to the POPCoin RPC console.</source>
+        <translation>Καλώς ήρθατε στην POPCoin RPC κονσόλα.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Εισάγετε μια διεύθυνση StartCOIN (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Εισάγετε μια διεύθυνση POPCoin (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1475,7 +1475,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Εισάγετε μια διεύθυνση StartCOIN (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Εισάγετε μια διεύθυνση POPCoin (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1516,8 +1516,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this StartCOIN address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση StartCOIN</translation>
+        <source>Sign the message to prove you own this POPCoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση POPCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,12 +1548,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Εισάγετε μια διεύθυνση StartCOIN (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Εισάγετε μια διεύθυνση POPCoin (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified StartCOIN address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση StartCOIN</translation>
+        <source>Verify the message to ensure it was signed with the specified POPCoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση POPCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,8 +1568,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Εισάγετε μια διεύθυνση StartCOIN (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a POPCoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Εισάγετε μια διεύθυνση POPCoin (π.χ. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,8 +1578,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter StartCOIN signature</source>
-        <translation>Εισαγωγή υπογραφής StartCOIN</translation>
+        <source>Enter POPCoin signature</source>
+        <translation>Εισαγωγή υπογραφής POPCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1652,8 +1652,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>StartJOIN</source>
-        <translation>Οι StartCOIN προγραμματιστές </translation>
+        <source>POPCoin</source>
+        <translation>Οι POPCoin προγραμματιστές </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2190,8 +2190,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>StartCOIN version</source>
-        <translation>Έκδοση StartCOIN</translation>
+        <source>POPCoin version</source>
+        <translation>Έκδοση POPCoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2200,8 +2200,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or startcoind</source>
-        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο startcoind</translation>
+        <source>Send command to -server or popcoind</source>
+        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο popcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2220,13 +2220,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: startcoin.conf)</source>
-        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: startcoin.conf)</translation>
+        <source>Specify configuration file (default: popcoin.conf)</source>
+        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: popcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: startcoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: startcoind.pid)</translation>
+        <source>Specify pid file (default: popcoind.pid)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: popcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2303,24 +2303,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=startcoinrpc
+rpcuser=popcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;POPCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=startcoinrpc
+rpcuser=popcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;POPCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2335,8 +2335,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. StartCOIN is probably already running.</source>
-        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το StartCOIN να είναι ήδη ενεργό.</translation>
+        <source>Cannot obtain a lock on data directory %s. POPCoin is probably already running.</source>
+        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το POPCoin να είναι ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2381,8 +2381,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong StartCOIN will not work properly.</source>
-        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το StartCOIN.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong POPCoin will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το POPCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2631,8 +2631,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the StartCOIN Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο StartCOIN Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+        <source>SSL options: (see the POPCoin Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο POPCoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2821,13 +2821,13 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of StartCOIN</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του StartCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of POPCoin</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του POPCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart StartCOIN to complete</source>
-        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του StartCOIN</translation>
+        <source>Wallet needed to be rewritten: restart POPCoin to complete</source>
+        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του POPCoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2886,8 +2886,8 @@ for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. StartCOIN is probably already running.</source>
-        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το StartCOIN είναι πιθανώς ήδη ενεργό.</translation>
+        <source>Unable to bind to %s on this computer. POPCoin is probably already running.</source>
+        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το POPCoin είναι πιθανώς ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+64"/>

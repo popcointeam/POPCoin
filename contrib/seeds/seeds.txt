@@ -1,2 +1,2 @@
-192.99.35.69:9247 # node1.startcoin.org
-37.59.54.5:9247 # node2.startcoin.org
+47.90.35.149:9247 # seed1.popcoins.net
+47.90.35.149:9246 # seed2.popcoins.net

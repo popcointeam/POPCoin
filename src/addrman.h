@@ -1,8 +1,8 @@
 // Copyright (c) 2012 Pieter Wuille
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef _STARTCOIN_ADDRMAN
-#define _STARTCOIN_ADDRMAN 1
+#ifndef _POPCOIN_ADDRMAN
+#define _POPCOIN_ADDRMAN 1
 
 #include "netbase.h"
 #include "protocol.h"

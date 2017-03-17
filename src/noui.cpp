@@ -44,7 +44,7 @@ static void noui_InitMessage(const std::string &message)
 
 void noui_connect()
 {
-    // Connect startcoind signal handlers
+    // Connect popcoind signal handlers
     uiInterface.ThreadSafeMessageBox.connect(noui_ThreadSafeMessageBox);
     uiInterface.ThreadSafeAskFee.connect(noui_ThreadSafeAskFee);
     uiInterface.InitMessage.connect(noui_InitMessage);

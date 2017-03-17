@@ -29,8 +29,8 @@
 #include "macdockiconhandler.h"
 #endif
 
-#if defined(STARTCOIN_NEED_QT_PLUGINS) && !defined(_STARTCOIN_QT_PLUGINS_INCLUDED)
-#define _STARTCOIN_QT_PLUGINS_INCLUDED
+#if defined(POPCOIN_NEED_QT_PLUGINS) && !defined(_POPCOIN_QT_PLUGINS_INCLUDED)
+#define _POPCOIN_QT_PLUGINS_INCLUDED
 #define __INSURE__
 #include <QtPlugin>
 Q_IMPORT_PLUGIN(qcncodecs)
@@ -110,11 +110,11 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. StartCOIN can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. POPCoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
-#ifndef STARTCOIN_QT_TEST
+#ifndef POPCOIN_QT_TEST
 int main(int argc, char *argv[])
 {
     // Command-line options take precedence:
@@ -141,12 +141,12 @@ int main(int argc, char *argv[])
     // Install global event filter that makes sure that long tooltips can be word-wrapped
     app.installEventFilter(new GUIUtil::ToolTipToRichTextFilter(TOOLTIP_WRAP_THRESHOLD, &app));
 
-    // ... then startcoin.conf:
+    // ... then popcoin.conf:
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
         // This message can not be translated, as translation is not initialized yet
-        // (which not yet possible because lang=XX can be overridden in startcoin.conf in the data directory)
-        QMessageBox::critical(0, "StartCOIN",
+        // (which not yet possible because lang=XX can be overridden in popcoin.conf in the data directory)
+        QMessageBox::critical(0, "POPCoin",
                               QString("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
@@ -154,12 +154,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    QApplication::setOrganizationName("StartCOIN");
-    QApplication::setOrganizationDomain("startcoin.org");
+    QApplication::setOrganizationName("POPCoin");
+    QApplication::setOrganizationDomain("popcoin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        QApplication::setApplicationName("StartCOIN-Qt-testnet");
+        QApplication::setApplicationName("POPCoin-Qt-testnet");
     else
-        QApplication::setApplicationName("StartCOIN-Qt");
+        QApplication::setApplicationName("POPCoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -288,7 +288,7 @@ int main(int argc, char *argv[])
                 guiref = 0;
                 delete walletModel;
             }
-            // Shutdown the core and its threads, but don't exit StartCOIN-Qt here
+            // Shutdown the core and its threads, but don't exit POPCoin-Qt here
             threadGroup.interrupt_all();
             threadGroup.join_all();
             Shutdown();
@@ -307,4 +307,4 @@ int main(int argc, char *argv[])
     }
     return 0;
 }
-#endif // STARTCOIN_QT_TEST
+#endif // POPCOIN_QT_TEST
