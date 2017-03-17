@@ -1,15 +1,16 @@
 POPCoin
 ==========================================
 
-Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Litecoin Developers
-Copyright (c) 	   2014 StartJOIN
-Copyright (c) 	   2017 POPCoin Team
+Copyright (c) 2009-2013 Bitcoin Developers<br/>
+Copyright (c) 2011-2013 Litecoin Developers<br/>
+Copyright (c) 	   2014 StartJOIN<br/>
+Copyright (c) 	   2017 POPCoin Team<br/>
 
 What is POPCoin?
 ----------------
 
 An open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances
+X11 Hashing Algorithm + POW & POS
 
 License
 -------
